@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.noUi-value,
+.noUi-marker {
+    display: none;
+}
+
+.noUi-pips .noUi-value {
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.noUi-pips.noUi-pips-horizontal {
+    padding: 0;
+    height: 30px;
+    top: 10px;
+}
+
+.noUi-tooltip {
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    bottom: 18px !important;
+    border: none;
+}
+
+.noUi-handle:before,
+.noUi-handle:after {
+    content: none;
+}
+
+.noUi-horizontal .noUi-handle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.noUi-connect {
+    background: rgb(132, 204, 22);
+}
