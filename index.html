@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CarTitleLoan</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.6.1/nouislider.min.css">
     <link href="dist/output.css" rel="stylesheet">
 </head>
@@ -14,16 +14,16 @@
     <header class=" body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                <img src="./assets/new_logo.jpeg" alt="" width="200">
+                <img src="assets/new_logo.jpeg" alt="" width="200">
             </a>
             <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                <a class="mr-5 font-semibold text-lime-500">Home</a>
+                <a class="mr-5 font-semibold text-lime-600">Home</a>
                 <a class="mr-5 font-semibold">How does CAR TITLE LOAN Works?</a>
                 <a class="mr-5 font-semibold">Why Car Title Loan?</a>
                 <a class="mr-5 font-semibold">Faqs</a>
             </nav>
             <a href="#"
-                class="inline-flex items-center bg-lime-500 border-0 py-1 px-3 focus:outline-none hover:bg-lime-400 rounded text-black text-base font-semibold mt-4 md:mt-0">Apply
+                class="inline-flex items-center bg-lime-600 border-0 py-1 px-3 focus:outline-none rounded text-base font-semibold mt-4 md:mt-0 text-white">Apply
                 Now
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     class="w-4 h-4 ml-1" viewBox="0 0 24 24">
@@ -33,122 +33,146 @@
         </div>
     </header>
     <section class=" body-font bg-green-50">
-        <div
-            class="lg:hidden flex container mx-auto flex px-5 pt-16 pb-8 md:flex-row flex-col items-center justify-center">
-            <h1 class="title-font text-3xl mb-5 font-medium text-gray-900 text-center">Car Title Loans $2500 to
-                $20000</h1>
+        <div class="flex container mx-auto flex px-5 pt-16 md:flex-row flex-col items-center justify-center">
+            <h1
+                class="title-font lg:text-5xl text-3xl lg:mb-0 mb-6 font-semibold text-gray-900 text-center text-lime-600">
+                Car Title
+                Loans <span class="text-cyan-700">$2500</span> to
+                <span class="text-cyan-700">$20000</span>
+            </h1>
         </div>
-        <div class="container mx-auto flex px-5 lg:py-24 md:flex-row flex-col items-center">
+        <div class="container mx-auto flex px-5 lg:py-16 lg:flex-row flex-col items-center">
             <div
-                class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                <h1 class="hidden lg:flex title-font sm:text-5xl text-5xl mb-5 font-medium text-gray-900">Car Title
-                    Loans
-                    $2500
-                    to
-                    $20000</h1>
-                <form class="w-full my-4">
-                    <h3 class="title-font sm:text-2xl text-2xl mb-5 font-medium text-gray-900">How much do I qualify
+                class="lg:flex-grow lg:pl-24 flex flex-col md:items-start md:text-left items-center text-center w-full md:max-w-[620px]">
+                <form class="w-full my-4 p-8 bg-white rounded-xl shadow-xl">
+                    <h3 class="title-font sm:text-2xl text-2xl mb-5 font-semibold text-cyan-700 text-center">
+                        How much do
+                        I qualify
                         for?
                     </h3>
-                    <div class="lg:flex flex-row w-full">
-                        <div class="text-left basis-full lg:pr-4 mb-4">
+                    <div class="md:flex flex-row w-full">
+                        <div class="text-left basis-full md:pr-4 mb-4">
                             <label class="leading-7 text-sm  pb-4">Loan Amount</label>
                             <div id="loanAmount" class="w-full mt-4"></div>
                         </div>
                     </div>
-                    <div class="lg:flex flex-row w-full">
-                        <div class="text-left lg:basis-1/2 lg:pr-4 mb-4">
+                    <div class="md:flex flex-row w-full">
+                        <div class="text-left md:basis-1/2 md:pr-4 mb-4">
                             <label for="firstname" class="leading-7 text-sm ">First Name</label>
                             <input type="text" id="firstname" name="firstname"
-                                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                         </div>
-                        <div class="text-left lg:basis-1/2 lg:pl-4 mb-4">
+                        <div class="text-left md:basis-1/2 md:pl-4 mb-4">
                             <label for="lastname" class="leading-7 text-sm ">Last Name</label>
                             <input type="text" id="lastname" name="lastname"
-                                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                         </div>
                     </div>
-                    <div class="lg:flex flex-row w-full">
-                        <div class="text-left lg:basis-1/2 lg:pr-4 mb-4">
+                    <div class="md:flex flex-row w-full">
+                        <div class="text-left md:basis-1/2 md:pr-4 mb-4">
                             <label for="email" class="leading-7 text-sm ">Email</label>
                             <input type="email" id="email" name="email"
-                                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                         </div>
-                        <div class="text-left lg:basis-1/2 lg:pl-4 mb-4">
+                        <div class="text-left md:basis-1/2 md:pl-4 mb-4">
                             <label for="phone" class="leading-7 text-sm ">Phone</label>
                             <input type="text" id="phone" name="phone"
-                                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                         </div>
                     </div>
-                    <div class="lg:flex flex-row w-full">
-                        <div class="text-left lg:basis-1/2 lg:pr-4 mb-4">
+                    <div class="md:flex flex-row w-full">
+                        <div class="text-left md:basis-1/2 md:pr-4 mb-4">
                             <label for="state" class="leading-7 text-sm ">State</label>
                             <select id="state" name="state"
-                                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 <option value="">Choose State</option>
                             </select>
 
                         </div>
-                        <div class="text-left lg:basis-1/2 lg:pl-4 mb-4">
+                        <div class="text-left md:basis-1/2 md:pl-4 mb-4">
                             <label class="leading-7 text-sm ">&nbsp;</label>
                             <button
-                                class="w-full text-black bg-lime-500 border-0 py-2 px-6 focus:outline-none hover:bg-lime-400 rounded font-semibold">Check
+                                class="w-full text-black bg-lime-600 border-0 py-2 px-6 focus:outline-none rounded font-semibold text-white">Check
                                 Now!</button>
                         </div>
                     </div>
                 </form>
             </div>
-            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 pl-4">
-                <div class="flex relative pt-10 pb-16 sm:items-center md:w-96 mx-auto">
-                    <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+            <div class="lg:max-w-lg lg:w-full mb-10 md:mb-0 pl-4 w-full">
+                <div class="flex relative pt-10 pb-8 sm:items-center md:w-96 mx-auto">
+                    <!-- <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
                         <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                    </div>
+                    </div> -->
                     <div
-                        class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-lime-500 text-white relative z-10 title-font font-medium text-sm">
-                        1</div>
-                    <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                        class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-lime-600 text-white relative z-10 title-font font-medium text-sm">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="flex-grow pl-4 flex sm:items-center items-start flex-col sm:flex-row">
                         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Low credit is ok.</h2>
+                            <h2 class="font-medium title-font mb-1 text-xl">Low credit is ok.</h2>
                         </div>
                     </div>
                 </div>
-                <div class="flex relative pb-16 sm:items-center md:w-96 mx-auto">
-                    <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                <div class="flex relative pb-8 sm:items-center md:w-96 mx-auto">
+                    <!-- <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
                         <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                    </div>
+                    </div> -->
                     <div
-                        class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-lime-500 text-white relative z-10 title-font font-medium text-sm">
-                        2</div>
-                    <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                        class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-lime-600 text-white relative z-10 title-font font-medium text-sm">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="flex-grow pl-4 flex sm:items-center items-start flex-col sm:flex-row">
                         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Get the cash you need and keep
+                            <h2 class="font-medium title-font mb-1 text-xl">Get the cash you need and keep
                                 driving your car.</h2>
                         </div>
                     </div>
                 </div>
-                <div class="flex relative pb-16 sm:items-center md:w-96 mx-auto">
-                    <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                <div class="flex relative pb-8 sm:items-center md:w-96 mx-auto">
+                    <!-- <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
                         <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                    </div>
+                    </div> -->
                     <div
-                        class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-lime-500 text-white relative z-10 title-font font-medium text-sm">
-                        3</div>
-                    <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                        class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-lime-600 text-white relative z-10 title-font font-medium text-sm">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="flex-grow pl-4 flex sm:items-center items-start flex-col sm:flex-row">
                         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Low Interest rates.</h2>
+                            <h2 class="font-medium title-font mb-1 text-xl">Low Interest rates.</h2>
                         </div>
                     </div>
                 </div>
-                <div class="flex relative pb-10 sm:items-center md:w-96 mx-auto">
-                    <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                <div class="flex relative pb-8 sm:items-center md:w-96 mx-auto">
+                    <!-- <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
                         <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                    </div>
+                    </div> -->
                     <div
-                        class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-lime-500 text-white relative z-10 title-font font-medium text-sm">
-                        4</div>
-                    <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                        class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-lime-600 text-white relative z-10 title-font font-medium text-sm">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="flex-grow pl-4 flex sm:items-center items-start flex-col sm:flex-row">
                         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Refinance your existing loan
+                            <h2 class="font-medium title-font mb-1 text-xl">Refinance your existing loan
                                 and
                                 get the extra cash you need.</h2>
                         </div>
@@ -157,51 +181,74 @@
             </div>
         </div>
     </section>
-    <section class=" body-font">
-        <div class="container px-5 py-24 mx-auto">
-            <div class="text-center mb-20">
-                <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Inquiring for a My Auto
+    <section class="body-font px-5 py-24">
+        <div class="max-w-screen-lg mx-auto text-center">
+            <div class="text-center mb-12">
+                <h3 class="lg:text-3xl text-2xl font-semibold title-font text-gray-900 mb-4 text-cyan-700">About Title
+                    Loan</h3>
+                <div class="flex mt-6 justify-center">
+                    <div class="w-16 h-1 rounded-full bg-lime-600 inline-flex"></div>
+                </div>
+            </div>
+            <p class="leading-8 mb-4">As the name suggests, loans are secured by the title of your vehicle. They are
+                also
+                known as
+                Auto Equity
+                Loans, Auto Title Loans, Pink Slip Loans, etc.</p>
+            <p class="leading-8">A car title loan is basically a short term loan that allows you to use the equity of
+                your vehicle in
+                order to secure a loan. There are many instances when one is in need of urgent cash but for some reason,
+                is not able to meet a lender's credit requirements or a lender is not able to match the individual's
+                needs. Car title loan is an option wherein most lenders accept almost all credit types, making it a
+                really good alternative to payday, personal/signature or installment loans. Equity of your vehicle being
+                the backbone of your loan, it allows you to secure a loan irrespective of your credit score.</p>
+        </div>
+        <div class="container mx-auto mt-24">
+            <div class="text-center mb-12">
+                <h3 class="lg:text-3xl text-2xl font-semibold title-font text-gray-900 mb-4 text-cyan-700">Inquiring for
+                    a
+                    My Auto
                     Equity Loans is as easy as this!
-                </h1>
+                </h3>
                 <!-- <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Blue bottle crucifix vinyl
                     post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                     banh mi pug.</p> -->
                 <div class="flex mt-6 justify-center">
-                    <div class="w-16 h-1 rounded-full bg-lime-500 inline-flex"></div>
+                    <div class="w-16 h-1 rounded-full bg-lime-600 inline-flex"></div>
                 </div>
             </div>
             <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
-                <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                <div class="w-full p-4 md:w-1/3 flex flex-col text-center items-center">
                     <div
                         class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-lime-100 text-indigo-500 mb-5 flex-shrink-0">
-                        <img src="./assets/Layer 31.png" alt="" class="max-h-8">
+                        <img src="assets/Layer 31.png" alt="" class="max-h-8">
                     </div>
                     <div class="flex-grow">
-                        <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
+                        <h2 class="text-gray-900 text-lg title-font font-semibold mb-3">Shooting Stars</h2>
                         <p class="leading-relaxed text-base">Getting connected only makes the entire process really
                             simple for you. <br />Request a call back by filling the contact form.
                         </p>
                     </div>
                 </div>
-                <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                <div class="w-full p-4 md:w-1/3 flex flex-col text-center items-center">
                     <div
                         class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-lime-100 text-indigo-500 mb-5 flex-shrink-0">
-                        <img src="./assets/Layer 33.png" alt="" class="max-h-8">
+                        <img src="assets/Layer 33.png" alt="" class="max-h-8">
                     </div>
                     <div class="flex-grow">
-                        <h2 class="text-gray-900 text-lg title-font font-medium mb-3">The Catalyzer</h2>
+                        <h2 class="text-gray-900 text-lg title-font font-semibold mb-3">The Catalyzer</h2>
                         <p class="leading-relaxed text-base">Get the cash you need as soon as today.* <br />In certain
                             instances, we might be able to get you funded the very same day.
                         </p>
                     </div>
                 </div>
-                <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                <div class="w-full p-4 md:w-1/3 flex flex-col text-center items-center">
                     <div
                         class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-lime-100 text-indigo-500 mb-5 flex-shrink-0">
-                        <img src="./assets/Layer 34.png" alt="" class="max-h-8">
+                        <img src="assets/Layer 34.png" alt="" class="max-h-8">
                     </div>
                     <div class="flex-grow">
-                        <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Neptune</h2>
+                        <h2 class="text-gray-900 text-lg title-font font-semibold mb-3">Neptune</h2>
                         <p class="leading-relaxed text-base">We would be more than happy to get you a free Title loan
                             no-obligation quote. You will always know what we may have for you when you are looking for
                             some extra cash.
@@ -217,13 +264,13 @@
                 class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                     <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                        <img src="./assets/new_logo.jpeg" alt="" width="200">
+                        <img src="assets/new_logo.jpeg" alt="" width="200">
                     </a>
                     <p class="mt-2 text-sm">Let your equities take care of your instant cash needs...</p>
                 </div>
                 <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                     <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-                        <h2 class="title-font font-semibold mb-3">Useful Links</h2>
+                        <h4 class="title-font font-semibold mb-3 text-cyan-700">Useful Links</h4>
                         <nav class="list-none mb-10">
                             <li>
                                 <a class="text-sm font-semibold">Home</a>
@@ -240,7 +287,7 @@
                         </nav>
                     </div>
                     <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-                        <h2 class="title-font font-semibold mb-3">Navigation</h2>
+                        <h4 class="title-font font-semibold mb-3 text-cyan-700">Navigation</h4>
                         <nav class="list-none mb-10">
                             <li>
                                 <a class="text-sm font-semibold">Home</a>
@@ -257,7 +304,7 @@
                         </nav>
                     </div>
                     <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-                        <h2 class="title-font font-semibold mb-3">Social</h2>
+                        <h4 class="title-font font-semibold mb-3 text-cyan-700">Social</h4>
                         <nav class="list-none mb-10">
                             <li>
                                 <a class=" hover:text-gray-800 flex items-center justify-center md:justify-start mb-3">
