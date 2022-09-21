@@ -1437,6 +1437,10 @@ video {
     display: flex;
   }
 
+  .lg\:hidden{
+    display: none;
+  }
+
   .lg\:w-full{
     width: 100%;
   }
