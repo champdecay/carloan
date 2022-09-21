@@ -11,44 +11,47 @@
 </head>
 
 <body>
-    <header class=" body-font">
+    <header class="body-font border-b-4 border-cyan-700">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                 <img src="assets/new_logo.jpeg" alt="" width="200">
             </a>
-            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <nav id="menu" class="md:ml-auto lg:flex flex-wrap items-center text-base justify-center hidden">
                 <a class="mr-5 font-semibold text-lime-600">Home</a>
                 <a class="mr-5 font-semibold">How does CAR TITLE LOAN Works?</a>
                 <a class="mr-5 font-semibold">Why Car Title Loan?</a>
                 <a class="mr-5 font-semibold">Faqs</a>
+                <a href="#"
+                    class="inline-flex items-center bg-lime-600 border-0 py-1 px-3 focus:outline-none rounded text-base font-semibold mt-4 md:mt-0 text-white">Apply
+                    Now
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </a>
             </nav>
-            <a href="#"
-                class="inline-flex items-center bg-lime-600 border-0 py-1 px-3 focus:outline-none rounded text-base font-semibold mt-4 md:mt-0 text-white">Apply
-                Now
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+            <button id="menuTrigger" class="absolute right-5 top-5">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd" />
                 </svg>
-            </a>
+            </button>
+
         </div>
     </header>
-    <section class=" body-font bg-green-50">
+    <section class="body-font bg-green-50">
         <div class="flex container mx-auto flex px-5 pt-16 md:flex-row flex-col items-center justify-center">
             <h1
                 class="title-font lg:text-5xl text-3xl lg:mb-0 mb-6 font-semibold text-gray-900 text-center text-lime-600">
-                Car Title
-                Loans <span class="text-cyan-700">$2500</span> to
-                <span class="text-cyan-700">$20000</span>
-            </h1>
+                Achieving financial goals made simple</h1>
         </div>
-        <div class="container mx-auto flex px-5 lg:py-16 lg:flex-row flex-col items-center">
+        <div class="max-w-screen-xl mx-auto flex px-5 lg:py-16 lg:flex-row flex-col items-center">
             <div
                 class="lg:flex-grow lg:pl-24 flex flex-col md:items-start md:text-left items-center text-center w-full md:max-w-[620px]">
                 <form class="w-full my-4 p-8 bg-white rounded-xl shadow-xl">
                     <h3 class="title-font sm:text-2xl text-2xl mb-5 font-semibold text-cyan-700 text-center">
-                        How much do
-                        I qualify
-                        for?
+                        Loans and Services to suit your needs
                     </h3>
                     <div class="md:flex flex-row w-full">
                         <div class="text-left basis-full md:pr-4 mb-4">
@@ -92,7 +95,7 @@
                         <div class="text-left md:basis-1/2 md:pl-4 mb-4">
                             <label class="leading-7 text-sm ">&nbsp;</label>
                             <button
-                                class="w-full text-black bg-lime-600 border-0 py-2 px-6 focus:outline-none rounded font-semibold text-white">Check
+                                class="w-full bg-lime-600 border-0 py-2 px-6 focus:outline-none rounded font-semibold text-white">Check
                                 Now!</button>
                         </div>
                     </div>
@@ -266,7 +269,7 @@
                     <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                         <img src="assets/new_logo.jpeg" alt="" width="200">
                     </a>
-                    <p class="mt-2 text-sm">Let your equities take care of your instant cash needs...</p>
+                    <p class="mt-2 text-sm font-semibold">Let the equity in your car take care of your cash needs</p>
                 </div>
                 <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                     <div class="lg:w-1/3 md:w-1/2 w-full px-4">
@@ -396,6 +399,10 @@
                     density: 3
                 }
             });
+
+            // document.querySelector("#menuTrigger").addEventListener("click", e => {
+            //     document.querySelector("#menu")
+            // })
         })
     </script>
 </body>
