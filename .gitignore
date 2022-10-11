@@ -141,3 +141,7 @@ out
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+
+package-lock.json
+package.json
+dist/output.css
